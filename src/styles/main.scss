@@ -1,0 +1,149 @@
+/* ── DESIGN TOKENS ─────────────────────────────────────────────── */
+:root {
+  /* dark by default (chalkboard feel) */
+  --bg:          #0C1015;
+  --surface:     #141920;
+  --surface-hi:  #1C2330;
+  --text:        #E8E3DA;
+  --text-muted:  #7A8BA8;
+  --text-dim:    #2A3A50;
+  --accent:      #45C9BE;  /* teal — the "aha" colour */
+  --warm:        #F0A84C;  /* amber — dx, dy, variables */
+  --border:      rgba(255, 255, 255, 0.07);
+  --radius:      10px;
+  --ff-prose:    Georgia, 'Times New Roman', serif;
+  --ff-ui:       system-ui, -apple-system, sans-serif;
+  --ff-mono:     'Courier New', monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg:         #F4F1EC;
+    --surface:    #EAE6DF;
+    --surface-hi: #DDD9D0;
+    --text:       #1A1814;
+    --text-muted: #5E6E88;
+    --text-dim:   #BEC8D6;
+    --border:     rgba(0, 0, 0, 0.08);
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg:          #0C1015;
+  --surface:     #141920;
+  --surface-hi:  #1C2330;
+  --text:        #E8E3DA;
+  --text-muted:  #7A8BA8;
+  --text-dim:    #2A3A50;
+  --border:      rgba(255, 255, 255, 0.07);
+}
+
+:root[data-theme='light'] {
+  --bg:         #F4F1EC;
+  --surface:    #EAE6DF;
+  --surface-hi: #DDD9D0;
+  --text:       #1A1814;
+  --text-muted: #5E6E88;
+  --text-dim:   #BEC8D6;
+  --border:     rgba(0, 0, 0, 0.08);
+}
+
+/* ── RESET ─────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--ff-prose);
+  font-size: 17px;
+  line-height: 1.75;
+  transition: background 0.25s, color 0.25s;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── GLOBAL PROSE HELPERS ──────────────────────────────────────── */
+/* Used inside chapter components */
+.prose-block {
+  p {
+    margin-bottom: 1.15rem;
+    max-width: 56ch;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  blockquote {
+    border-left: 2.5px solid var(--accent);
+    padding: 0.4em 1.25em;
+    margin: 1.4rem 0;
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.97em;
+  }
+}
+
+/* Inline semantic helpers */
+.dx {
+  color: var(--warm);
+  font-style: italic;
+}
+
+.hi {
+  color: var(--accent);
+}
+
+/* ── GLOBAL BUTTON ─────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--ff-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.7em 1.5em;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s, transform 0.15s;
+
+  &:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &--primary {
+    background: var(--accent);
+    color: #0c1015;
+  }
+
+  &--ghost {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+  }
+}
+
+/* ── RANGE INPUT ───────────────────────────────────────────────── */
+input[type='range'] {
+  flex: 1;
+  height: 3px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
