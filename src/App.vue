@@ -5,6 +5,7 @@
     <ChapterSmallness />
     <ChapterRateOfChange />
     <ChapterPowerRule />
+    <ChapterProductRule />
     <ChapterSlopes />
     <ChapterMaxMin />
     <ChapterIntegration />
@@ -19,6 +20,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
 import ChapterSmallness from '@/components/chapters/ChapterSmallness.vue'
 import ChapterRateOfChange from '@/components/chapters/ChapterRateOfChange.vue'
 import ChapterPowerRule from '@/components/chapters/ChapterPowerRule.vue'
+import ChapterProductRule from '@/components/chapters/ChapterProductRule.vue'
 import ChapterSlopes from '@/components/chapters/ChapterSlopes.vue'
 import ChapterMaxMin from '@/components/chapters/ChapterMaxMin.vue'
 import ChapterIntegration from '@/components/chapters/ChapterIntegration.vue'
