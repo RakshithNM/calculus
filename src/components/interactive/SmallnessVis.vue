@@ -17,6 +17,13 @@
       <span class="smallness__context">{{ contextLabel }}</span>
     </p>
 
+    <p class="smallness__desc smallness__desc--second">
+      <span class="hi">dx²</span> =
+      <span class="smallness__val">{{ displayValSquared }}</span>
+      &nbsp;·&nbsp;
+      <span class="smallness__context">{{ contextLabelSquared }}</span>
+    </p>
+
     <div class="smallness__ctrl">
       <span class="ctrl-lbl">dx</span>
       <input type="range" v-model.number="sliderVal" min="0" max="99" />
@@ -64,6 +71,21 @@ const contextLabel = computed(() => {
   if (v < 66) return 'smaller than a wavelength of light'
   return 'smaller than a proton — yet not zero'
 })
+
+const displayValSquared = computed(() => {
+  const v = sliderVal.value
+  if (v < 10) return '1'
+  if (v < 22) return (Math.pow(10, exponent.value * 2)).toFixed(4)
+  const exp = Math.round(v / 99 * 9) * 2
+  return `10⁻${exp}`
+})
+
+const contextLabelSquared = computed(() => {
+  const v = sliderVal.value
+  if (v < 33) return 'smaller than a speck of dust'
+  if (v < 66) return 'smaller than an atom'
+  return 'practically nothing'
+})
 </script>
 
 <style lang="scss" scoped>
@@ -89,7 +111,13 @@ const contextLabel = computed(() => {
     font-family: var(--ff-ui);
     font-size: 0.8rem;
     color: var(--text-muted);
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.2rem;
+
+    &--second {
+      margin-bottom: 1.1rem;
+      opacity: 0.8;
+      .hi { color: var(--accent); font-weight: 600; font-family: var(--ff-mono); }
+    }
   }
 
   &__val {

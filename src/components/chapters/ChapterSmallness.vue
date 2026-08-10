@@ -1,5 +1,5 @@
 <template>
-  <ChapterLayout id="smallness" label="Chapter I" title="On Different Degrees of Smallness">
+  <ChapterLayout id="smallness" label="Chapter II" title="On Different Degrees of Smallness">
     <template #prose>
       <div class="prose-block">
         <p>
@@ -14,15 +14,14 @@
         </blockquote>
         <p>
           A little bit of <span class="dx">x</span> is written <span class="dx">dx</span>.
-          A little bit of time is <span class="dx">dt</span>. These are not zero — they're
-          quantities small enough that we can reason about how they
-          <span class="hi">relate</span> to each other.
+          But Thompson's greatest lesson is about <strong>degrees</strong> of smallness.
+          If <span class="dx">dx</span> is a small fraction, like 1/60, then what is <span class="hi">dx²</span> (a small bit of a small bit)? It is 1/3600.
         </p>
         <p>
-          The ratio <span class="dx">dy/dx</span> — "how much does <em>y</em> change
-          per tiny bit of <em>x</em>?" — is the derivative. Drag the slider to shrink
-          <span class="dx">dx</span> toward zero. Notice it never quite gets there.
-          That's the whole point.
+          A smallness of the second degree (<span class="hi">dx²</span> or <span class="hi">dx·dy</span>) is microscopically tiny compared to a smallness of the first degree (<span class="dx">dx</span>). When we eventually let these bits shrink toward zero, the second-degree bits vanish entirely, leaving only the first-degree bits to form our rate of change.
+        </p>
+        <p>
+          Drag the slider to shrink <span class="dx">dx</span>. Watch how <span class="hi">dx²</span> crashes toward zero exponentially faster.
         </p>
       </div>
     </template>
