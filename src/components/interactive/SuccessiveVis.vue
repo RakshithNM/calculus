@@ -215,7 +215,7 @@ function onTouchMove(e: TouchEvent) {
   &--y.active   { background: var(--warm); color: #141920; border-color: var(--warm); }
   &--dy.active  { background: var(--accent); color: #141920; border-color: var(--accent); }
   &--d2y.active { background: #b18ceb; color: #141920; border-color: #b18ceb; }
-  &--all.active { background: var(--text); color: #141920; border-color: var(--text); }
+  &--all.active { background: var(--text); color: var(--bg); border-color: var(--text); }
 }
 
 .readout {

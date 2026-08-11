@@ -213,7 +213,7 @@ function onMouseDown(e: MouseEvent) {
   
   &.active {
     background: var(--text);
-    color: #141920;
+    color: var(--bg);
     border-color: var(--text);
     font-weight: 600;
   }

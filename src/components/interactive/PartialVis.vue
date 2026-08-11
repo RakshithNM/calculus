@@ -209,7 +209,7 @@ const shellTop = computed(() => {
   
   &.active {
     background: var(--text);
-    color: #141920;
+    color: var(--bg);
     border-color: var(--text);
     font-weight: 600;
   }
