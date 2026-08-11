@@ -33,11 +33,11 @@
         the same tricks."
       </p>
       <div class="hero__cta">
-        <a href="#smallness" class="btn btn--primary">Begin reading</a>
+        <a href="#terrors" class="btn btn--primary">Begin reading</a>
       </div>
     </div>
 
-    <a href="#smallness" class="hero__scroll" aria-label="Scroll down">
+    <a href="#terrors" class="hero__scroll" aria-label="Scroll down">
       <span>scroll</span>
       <svg width="12" height="18" viewBox="0 0 12 18" fill="none" stroke="currentColor" stroke-width="1.5">
         <path d="M6 1v16M1 12l5 5 5-5" />
