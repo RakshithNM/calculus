@@ -4,7 +4,7 @@
       <div class="prose-block">
         <p>
           The derivative has a beautiful geometric interpretation. If you zoom in
-          infinitely close to any smooth curve, it looks perfectly straight — and
+          infinitely close to any smooth curve, it looks perfectly straight - and
           the derivative gives the <span class="hi">slope of that line</span>.
         </p>
         <blockquote>
@@ -15,7 +15,7 @@
           For the parabola <span class="dx">y = x²</span>, the derivative is
           <span class="hi">2x</span>. At <span class="dx">x = 1</span> the slope
           is 2; at <span class="dx">x = −1</span> it's −2; at the very bottom it's
-          exactly zero — the curve is momentarily flat.
+          exactly zero - the curve is momentarily flat.
         </p>
         <p>
           Move your mouse (or touch) across the graph. The tangent line pivots

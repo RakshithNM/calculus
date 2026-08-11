@@ -4,7 +4,7 @@
       <div class="prose-block">
         <p>
           The simplest functions are powers of <span class="dx">x</span>: x², x³, x⁵.
-          Thompson shows they all differentiate by one elegant pattern — the power
+          Thompson shows they all differentiate by one elegant pattern - the power
           "comes down" and multiplies, then the exponent drops by one:
         </p>
         <blockquote>
@@ -13,7 +13,7 @@
         <p>
           So <span class="dx">x³</span> differentiates to <span class="hi">3x²</span>.
           The rate of change of a cube grows as a square. A straight line
-          (<span class="dx">n = 1</span>) has a constant derivative — it changes at
+          (<span class="dx">n = 1</span>) has a constant derivative - it changes at
           the same pace everywhere, which makes sense.
         </p>
         <p>

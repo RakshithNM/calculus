@@ -107,7 +107,7 @@ const tan = computed(() => {
 
 const slopeState = computed(() => {
   const s = df(curX.value)
-  if (Math.abs(s) < 0.25) return ' — turning point!'
+  if (Math.abs(s) < 0.25) return ' - turning point!'
   return s > 0 ? ' ↑ rising' : ' ↓ falling'
 })
 

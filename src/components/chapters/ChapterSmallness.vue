@@ -5,7 +5,7 @@
         <p>
           Calculus rests on a single, slippery idea: things can be
           <em>indefinitely small</em> without being <em>nothing</em>. Thompson calls
-          these little bits <span class="dx">dx</span> and <span class="dx">dy</span> —
+          these little bits <span class="dx">dx</span> and <span class="dx">dy</span> - 
           where the <em>d</em> simply means "a little bit of."
         </p>
         <blockquote>

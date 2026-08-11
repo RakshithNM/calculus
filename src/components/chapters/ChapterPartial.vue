@@ -23,7 +23,7 @@
           <br>2. Varying <span class="dx">h</span> (treat <span class="dx">r</span> as constant): <span class="hi">∂V/∂h = πr²</span>.
         </p>
         <p>
-          This isn't just abstract math—it has a beautiful physical meaning! Look at the interactive below. When you vary the radius, the added volume is a thin shell wrapped around the outside (Area = <span class="dx">2πrh</span>). When you vary the height, the added volume is a thin flat slice added to the top (Area = <span class="dx">πr²</span>). The math perfectly matches the geometry!
+          This isn't just abstract math - it has a beautiful physical meaning! Look at the interactive below. When you vary the radius, the added volume is a thin shell wrapped around the outside (Area = <span class="dx">2πrh</span>). When you vary the height, the added volume is a thin flat slice added to the top (Area = <span class="dx">πr²</span>). The math perfectly matches the geometry!
         </p>
       </div>
     </template>

@@ -45,7 +45,7 @@ defineProps<{
   }
 
   &:nth-of-type(odd) &__inner {
-    /* prose left, lab right — default */
+    /* prose left, lab right - default */
   }
 
   &:nth-of-type(even) &__inner {

@@ -26,7 +26,7 @@
           What one fool can do, another can.
         </div>
         <div class="author-sign">
-          — Silvanus P. Thompson (1910)
+         - Silvanus P. Thompson (1910)
         </div>
       </div>
     </template>

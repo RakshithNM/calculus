@@ -5,7 +5,7 @@
         <p>
           Here is the central question of all calculus: if <span class="dx">y</span>
           depends on <span class="dx">x</span>, <em>how fast does y change when x
-          changes?</em> Not by how much — by how fast, per unit of x.
+          changes?</em> Not by how much - by how fast, per unit of x.
         </p>
         <p>
           Thompson answers it with a square. Suppose the side is <span class="dx">x = 3</span>,
@@ -19,7 +19,7 @@
           Three pieces appear: the original square, two thin strips
           (<span class="hi">2x · dx</span>), and a tiny corner
           (<span class="dx">dx²</span>). When <span class="dx">dx</span> is very
-          small, the corner is <em>negligibly small</em> compared to the strips —
+          small, the corner is <em>negligibly small</em> compared to the strips - 
           a small times a small is a very small indeed.
         </p>
         <p>
@@ -27,13 +27,13 @@
           <span class="hi">2x · dx</span>. Divide both sides by
           <span class="dx">dx</span> and you have the rate of change:
           <span class="hi">dy/dx = 2x</span>. The power rule didn't come from
-          nowhere — it came from this square.
+          nowhere - it came from this square.
         </p>
         <p>
-          This procedure — growing <span class="dx">x</span> by
+          This procedure - growing <span class="dx">x</span> by
           <span class="dx">dx</span>, finding the resulting change
           <span class="dx">dy</span>, dividing, then letting
-          <span class="dx">dx</span> vanish — is called
+          <span class="dx">dx</span> vanish - is called
           <span class="hi">differentiation</span>. The result,
           <span class="hi">dy/dx</span>, is the <span class="hi">derivative</span>.
           Every shortcut and rule in calculus is just a faster way of

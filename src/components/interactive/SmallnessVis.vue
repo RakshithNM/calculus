@@ -69,7 +69,7 @@ const contextLabel = computed(() => {
   const v = sliderVal.value
   if (v < 33) return 'smaller than a grain of sand'
   if (v < 66) return 'smaller than a wavelength of light'
-  return 'smaller than a proton — yet not zero'
+  return 'smaller than a proton - yet not zero'
 })
 
 const displayValSquared = computed(() => {

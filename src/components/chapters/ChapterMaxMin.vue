@@ -4,7 +4,7 @@
       <div class="prose-block">
         <p>
           Here is the payoff. When a function reaches a peak or a valley,
-          it is — for an instant — <em>neither rising nor falling</em>. The
+          it is - for an instant - <em>neither rising nor falling</em>. The
           slope of the tangent is exactly zero.
         </p>
         <blockquote>
@@ -13,13 +13,13 @@
         <p>
           This is why engineers, economists, and scientists use calculus daily:
           to find the <span class="hi">best answer</span> to a question. The
-          shortest path, the strongest beam, the cheapest design — all are found
+          shortest path, the strongest beam, the cheapest design - all are found
           by setting the derivative to zero and solving.
         </p>
         <p>
           The curve below is <span class="dx">f(x) = x³ − 3x</span>, whose
           derivative is <span class="hi">f′(x) = 3x² − 3</span>. Setting that
-          to zero: <span class="hi">x = ±1</span>. Move along the curve —
+          to zero: <span class="hi">x = ±1</span>. Move along the curve - 
           watch the tangent flatten exactly at those two points, one a peak,
           one a valley.
         </p>

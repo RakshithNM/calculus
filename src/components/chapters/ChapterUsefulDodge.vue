@@ -6,7 +6,7 @@
           Sometimes you have a function buried inside another function. How do you find the rate of change of the outer one with respect to the innermost variable?
         </p>
         <p>
-          Thompson calls his solution a "useful dodge"—which we now know as the <strong>Chain Rule</strong>. He explains it with a very intuitive idea: if <span class="dx">y</span> depends on <span class="dx">u</span>, and <span class="dx">u</span> depends on <span class="dx">x</span>, their rates of change simply multiply together.
+          Thompson calls his solution a "useful dodge" - which we now know as the <strong>Chain Rule</strong>. He explains it with a very intuitive idea: if <span class="dx">y</span> depends on <span class="dx">u</span>, and <span class="dx">u</span> depends on <span class="dx">x</span>, their rates of change simply multiply together.
         </p>
         <blockquote>
           "If <em>y</em> depends on <em>u</em>, and <em>u</em> depends on <em>x</em>, then the rate of variation of <em>y</em> with regard to <em>x</em> is the product of the rate of variation of <em>y</em> with regard to <em>u</em>, and that of <em>u</em> with regard to <em>x</em>."
