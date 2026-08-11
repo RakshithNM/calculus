@@ -1,8 +1,11 @@
 <template>
   <footer class="footer">
     <p>
-      Based on <em>Calculus Made Easy</em> by Silvanus P. Thompson (1910).<br />
+      Based on <em><a href="https://calculusmadeeasy.org/" target="_blank" rel="noopener noreferrer">Calculus Made Easy</a></em> by Silvanus P. Thompson (1910).<br />
       Thompson's prose is in the public domain. Interactive visualisations built for this page.
+    </p>
+    <p class="credits">
+      Built by <a href="https://rakshithnettar.com" target="_blank" rel="noopener noreferrer">Rakshith Bellare</a>
     </p>
   </footer>
 </template>
@@ -22,6 +25,21 @@
 
   em {
     font-style: italic;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--text);
+      text-decoration: underline;
+    }
+  }
+
+  .credits {
+    margin-top: 1rem;
+    font-size: 0.8rem;
   }
 }
 </style>
