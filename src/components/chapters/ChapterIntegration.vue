@@ -28,14 +28,6 @@
           <span class="hi">8/3 ≈ 2.667</span>. Pull the slider to the right and
           watch the approximation approach it from above.
         </p>
-        <p>
-          Integration has a second face: it is differentiation <em>in reverse</em>.
-          If you know that speed is <span class="dx">2t</span> at every moment,
-          integrating gives position <span class="hi">t²</span> — exactly undoing
-          the derivative we computed from the growing square. This mirror
-          relationship is the <span class="hi">Fundamental Theorem of Calculus</span>:
-          differentiation and integration are two halves of the same idea.
-        </p>
       </div>
     </template>
     <template #lab>
