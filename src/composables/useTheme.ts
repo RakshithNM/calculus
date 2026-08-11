@@ -8,7 +8,9 @@ const theme = ref<'dark' | 'light'>(
 
 export function useTheme() {
   watchEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme.value)
+    if (typeof document !== 'undefined') {
+      document.documentElement.setAttribute('data-theme', theme.value)
+    }
   })
 
   function toggle() {
