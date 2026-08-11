@@ -24,6 +24,7 @@
     <ChapterArea />
     <ChapterDodges />
     <ChapterSolutions />
+    <ChapterEpilogue />
   </main>
   <SiteFooter />
 </template>
@@ -54,4 +55,5 @@ import ChapterReverse from '@/components/chapters/ChapterReverse.vue'
 import ChapterArea from '@/components/chapters/ChapterArea.vue'
 import ChapterDodges from '@/components/chapters/ChapterDodges.vue'
 import ChapterSolutions from '@/components/chapters/ChapterSolutions.vue'
+import ChapterEpilogue from '@/components/chapters/ChapterEpilogue.vue'
 </script>
