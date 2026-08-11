@@ -37,7 +37,7 @@
         :x2="pt[0]" :y2="pt[1]"
         class="height-line"
       />
-      <text :x="pt[0] - 8" :y="pt[1] + (ms(0,0)[1] - pt[1])/2" class="lbl lbl--height" transform="rotate(-90, pt[0]-8, pt[1] + (ms(0,0)[1] - pt[1])/2)">
+      <text :x="pt[0] - 8" :y="pt[1] + (ms(0,0)[1] - pt[1])/2" class="lbl lbl--height" :transform="`rotate(-90, ${pt[0]-8}, ${pt[1] + (ms(0,0)[1] - pt[1])/2})`">
         Height = {{ val.toFixed(2) }}
       </text>
 
