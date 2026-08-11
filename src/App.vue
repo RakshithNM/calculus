@@ -14,6 +14,7 @@
     <ChapterSlopes />
     <ChapterMaxMin />
     <ChapterCurvature />
+    <ChapterOtherDodges />
     <ChapterIntegration />
   </main>
   <SiteFooter />
@@ -35,5 +36,6 @@ import ChapterUsefulDodge from '@/components/chapters/ChapterUsefulDodge.vue'
 import ChapterSlopes from '@/components/chapters/ChapterSlopes.vue'
 import ChapterMaxMin from '@/components/chapters/ChapterMaxMin.vue'
 import ChapterCurvature from '@/components/chapters/ChapterCurvature.vue'
+import ChapterOtherDodges from '@/components/chapters/ChapterOtherDodges.vue'
 import ChapterIntegration from '@/components/chapters/ChapterIntegration.vue'
 </script>
