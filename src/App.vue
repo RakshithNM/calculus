@@ -17,6 +17,7 @@
     <ChapterOtherDodges />
     <ChapterOrganicGrowth />
     <ChapterDieAway />
+    <ChapterTrig />
     <ChapterIntegration />
   </main>
   <SiteFooter />
@@ -41,5 +42,6 @@ import ChapterCurvature from '@/components/chapters/ChapterCurvature.vue'
 import ChapterOtherDodges from '@/components/chapters/ChapterOtherDodges.vue'
 import ChapterOrganicGrowth from '@/components/chapters/ChapterOrganicGrowth.vue'
 import ChapterDieAway from '@/components/chapters/ChapterDieAway.vue'
+import ChapterTrig from '@/components/chapters/ChapterTrig.vue'
 import ChapterIntegration from '@/components/chapters/ChapterIntegration.vue'
 </script>
