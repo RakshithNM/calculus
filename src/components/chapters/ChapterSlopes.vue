@@ -1,5 +1,5 @@
 <template>
-  <ChapterLayout id="slopes" label="Chapter IX" title="Geometrical Meaning of Differentiation">
+  <ChapterLayout id="slopes" label="Chapter X" title="Geometrical Meaning of Differentiation">
     <template #prose>
       <div class="prose-block">
         <p>

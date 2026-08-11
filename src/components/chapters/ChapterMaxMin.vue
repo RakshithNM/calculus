@@ -1,5 +1,5 @@
 <template>
-  <ChapterLayout id="max-min" label="Chapter X" title="Maxima and Minima">
+  <ChapterLayout id="max-min" label="Chapter XI" title="Maxima and Minima">
     <template #prose>
       <div class="prose-block">
         <p>

@@ -10,6 +10,7 @@
     <ChapterProductRule />
     <ChapterSuccessive />
     <ChapterTimeVaries />
+    <ChapterUsefulDodge />
     <ChapterSlopes />
     <ChapterMaxMin />
     <ChapterIntegration />
@@ -29,6 +30,7 @@ import ChapterConstants from '@/components/chapters/ChapterConstants.vue'
 import ChapterProductRule from '@/components/chapters/ChapterProductRule.vue'
 import ChapterSuccessive from '@/components/chapters/ChapterSuccessive.vue'
 import ChapterTimeVaries from '@/components/chapters/ChapterTimeVaries.vue'
+import ChapterUsefulDodge from '@/components/chapters/ChapterUsefulDodge.vue'
 import ChapterSlopes from '@/components/chapters/ChapterSlopes.vue'
 import ChapterMaxMin from '@/components/chapters/ChapterMaxMin.vue'
 import ChapterIntegration from '@/components/chapters/ChapterIntegration.vue'
