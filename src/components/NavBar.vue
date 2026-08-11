@@ -50,7 +50,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, watch, nextTick } from 'vue'
 import { useTheme } from '@/composables/useTheme'
 
 const { toggle } = useTheme()
@@ -87,6 +87,16 @@ const links = [
 ]
 
 const activeId = ref('hero')
+
+watch([activeId, menuOpen], async ([newId, isOpen]) => {
+  if (isOpen) {
+    await nextTick()
+    const activeEl = document.querySelector('.menu-link--active')
+    if (activeEl) {
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }
+})
 
 let observer: IntersectionObserver | null = null
 
