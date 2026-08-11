@@ -18,6 +18,7 @@
     <ChapterOrganicGrowth />
     <ChapterDieAway />
     <ChapterTrig />
+    <ChapterPartial />
     <ChapterIntegration />
   </main>
   <SiteFooter />
@@ -43,5 +44,6 @@ import ChapterOtherDodges from '@/components/chapters/ChapterOtherDodges.vue'
 import ChapterOrganicGrowth from '@/components/chapters/ChapterOrganicGrowth.vue'
 import ChapterDieAway from '@/components/chapters/ChapterDieAway.vue'
 import ChapterTrig from '@/components/chapters/ChapterTrig.vue'
+import ChapterPartial from '@/components/chapters/ChapterPartial.vue'
 import ChapterIntegration from '@/components/chapters/ChapterIntegration.vue'
 </script>
