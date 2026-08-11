@@ -22,6 +22,7 @@
     <ChapterIntegration />
     <ChapterReverse />
     <ChapterArea />
+    <ChapterDodges />
   </main>
   <SiteFooter />
 </template>
@@ -50,4 +51,5 @@ import ChapterPartial from '@/components/chapters/ChapterPartial.vue'
 import ChapterIntegration from '@/components/chapters/ChapterIntegration.vue'
 import ChapterReverse from '@/components/chapters/ChapterReverse.vue'
 import ChapterArea from '@/components/chapters/ChapterArea.vue'
+import ChapterDodges from '@/components/chapters/ChapterDodges.vue'
 </script>
