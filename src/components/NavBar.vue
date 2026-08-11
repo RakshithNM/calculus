@@ -255,7 +255,7 @@ onUnmounted(() => observer?.disconnect())
   font-family: var(--ff-mono);
   font-size: 0.75rem;
   color: var(--text-muted);
-  width: 2.5rem;
+  width: 4.5rem;
   flex-shrink: 0;
 }
 
